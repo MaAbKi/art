@@ -1,0 +1,207 @@
+body {
+    text-align: center;
+    font-family: "Roboto-Slab";
+    letter-spacing: 2px;
+  }
+  
+  /* Top Section */
+  .main-page {
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .menu-image {
+    height: 3rem;
+    width: 6rem;
+  }
+  .dropdown-menu {
+    background:none;
+    border:none;
+  }
+  .card-body {
+    padding: 0;
+  }
+  
+  .title-logo {
+    font-size: 36px;
+    margin: auto 50% auto 0;
+  }
+  
+  .title {
+    font-weight: bolder;
+    font-style: oblique;
+    letter-spacing: 5px;
+    margin: auto;
+  }
+  
+  /* Front-Page */
+  .front-section {
+    background-color: #000000;
+  }
+  
+  .front-image {
+    margin: auto;
+    padding: 8rem 0 3rem;
+  }
+  
+  .front-bottom-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 2rem;
+  }
+  
+  /* Art Section */
+  .art-section {
+    background-color: #F5F5F5;
+    padding: 2rem 3rem 3rem;
+  }
+  
+  .card-deck {
+    margin: 4rem 0 2rem;
+    padding: 2rem;
+  }
+  
+  .image-card {
+    padding: 1rem;
+  }
+  
+  .art-image {
+    height: 19rem;
+  }
+  
+  .cart-button {
+    margin-top: 0.5rem;
+    letter-spacing: 5px;
+  }
+  
+  /* Traditional-Outfits-Section  */
+  .outfits-section {
+    background-color: #ffffff;
+    margin: 2rem;
+    padding: 5rem 3rem 3rem;
+  }
+  .Libse-d {
+    margin: 2rem 0 1rem;
+    padding: 1rem;
+  }
+  .Libse-card {
+    border-style: none;
+    padding: 0 2rem;
+  }
+  
+  .Libse-image {
+    height: 16rem;
+  }
+  
+  .outfits-carousel {
+    margin: 1rem;
+  }
+  
+  .pre-next {
+    margin: 2rem 7rem 1rem;
+  }
+  
+  .carousel-indicators {
+    margin: 0 2px 1rem;
+  }
+  
+  /* Contact-Section */
+  .contact-section {
+    background-color: #F5F5F5;
+    padding: 1rem;
+  }
+  
+  .contact-icons {
+    margin: 2rem;
+  }
+  
+  .contact {
+    height: 3rem;
+  }
+  
+  .image-icon {
+    padding: 2rem;
+  }
+  
+  /* Media Queries Section */
+  /* home */
+  @media only screen and (max-width: 768px) {
+    #top-section {
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width:768px) {
+    #front-page {
+      padding: 1rem;
+    }
+    .front-image {
+      margin: auto;
+      padding: 7rem 5rem 3rem;
+    }
+  /* art */
+    
+    .art-section {
+      padding: 5rem 1rem;
+    }
+  
+    .card-deck {
+      margin: 1rem 0;
+    }
+  
+    .image-card {
+      height: 40rem;
+      padding: 3rem 2rem;
+    }
+  
+    .art-image {
+      height: 15rem;
+    }
+  
+    .card-body {
+      letter-spacing: 1px;
+      line-height: 1;
+    }
+  
+    .cart-button {
+      letter-spacing: 3px;
+    }
+  }
+  
+  /* outfit */
+  @media only screen and (max-width:768px) {
+    .outfits-section {
+      background-color: #ffffff;
+      margin: 3rem 1rem 2rem;
+      padding: 6rem 2rem 3rem;
+    }
+  
+    .Libse-card {
+      border-style: none;
+      padding: 0 0.5rem;
+    }
+  
+    .Libse-image {
+      height: 21rem;
+    }
+  
+    .outfits-carousel {
+      margin: 1rem;
+    }
+    .pre-next {
+      margin: 2rem 2rem 1rem;
+    }
+  }
+  
+  /* Contact */
+  @media only screen and (max-width:768px) {
+    .phone {
+      font-size: 10px;
+    }
+     .contact-icons {
+       margin: 2rem 1rem 1rem;
+    }
+  }
+  
